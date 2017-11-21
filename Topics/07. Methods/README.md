@@ -506,7 +506,7 @@ getRandom(10);
 
 #   Varying Method Parameters
 
-*   Java has the so caled `varargs`
+*   Java has the so called `varargs`
     *   i.e. an array of values can be passed using commas
 
 *   _Example:_ Find the maximum among elements:
