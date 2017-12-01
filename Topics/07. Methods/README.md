@@ -6,7 +6,7 @@
 ##  Named pieces of code
 
 <div class="signature">
-    <p class="signature-course">Java Fundamentals - Part 1</p>
+    <p class="signature-course">Java Fundamentals</p>
     <p class="signature-initiative">Telerik School Academy</p>
     <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
 </div>
