@@ -417,7 +417,7 @@ static double fahrenheitToCelsius(double degrees) {
 *   Check if all numbers in a sequence are positive:
 
 ```java
-static bool arePositive(int[] sequence) {
+static boolean arePositive(int[] sequence) {
     for (int number : sequence) {
         if (number <= 0) {
             return false;
@@ -437,16 +437,16 @@ static bool arePositive(int[] sequence) {
 *   Validating input data
 
 ```java
-statuc bool validateTime(int hours, int minutes, int seconds){
+statuc boolean validateTime(int hours, int minutes, int seconds){
   return validateHours(hours) && validateMinutes(minutes) && validateSeconds(seconds);
 }
 
-static bool validateMinutes(int minutes) {
-  bool result = (minutes>=0) && (minutes<=59);
+static boolean validateMinutes(int minutes) {
+  boolean result = (minutes>=0) && (minutes<=59);
   return result;
 }
 
-static bool validateHours(int hours) { ... }
+static boolean validateHours(int hours) { ... }
 ```
 
 <!-- attr: {class: 'slide-section', showInPresentation: true} -->
@@ -506,7 +506,7 @@ getRandom(10);
 
 #   Varying Method Parameters
 
-*   Java has the so caled `varargs`
+*   Java has the so called `varargs`
     *   i.e. an array of values can be passed using commas
 
 *   _Example:_ Find the maximum among elements:
